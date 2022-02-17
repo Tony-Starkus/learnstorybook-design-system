@@ -45,6 +45,7 @@ export const Initials = (args) => (
     <Avatar username="Dominic Nguyen" />
     <Avatar username="Kyle Suss" />
     <Avatar username="Michael Shilman" />
+    <Avatar username="Thalisson Bandeira" />
   </div>
 );
 
