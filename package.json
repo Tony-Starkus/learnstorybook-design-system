@@ -1,7 +1,7 @@
 {
-  "name": "learnstorybook-design-system-template",
+  "name": "my-storybook-starkus",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
@@ -38,7 +38,16 @@
       }
     ]
   },
-  "babel": {},
+  "babel": {
+    "presets": [
+      [
+        "react-app",
+        {
+          "absoluteRuntime": false
+        }
+      ]
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -52,7 +61,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addon-actions": "^6.4.19",
+    "@storybook/addon-docs": "^6.4.19",
     "@storybook/addon-essentials": "^6.4.19",
     "@storybook/addon-interactions": "^6.4.19",
     "@storybook/addon-links": "^6.4.19",
@@ -61,7 +73,14 @@
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.4.19",
     "@storybook/testing-library": "^0.0.9",
+    "auto": "^10.32.6",
     "chromatic": "^6.4.3",
+    "cross-env": "^7.0.3",
     "prettier": "^2.5.1"
-  }
+  },
+  "description": "Learning storybook",
+  "main": "dist/index.js",
+  "repository": "git@github.com:Tony-Starkus/learnstorybook-design-system.git",
+  "author": "Tony-Starkus <thalisson.bandeira@hotmail.com>",
+  "license": "MIT"
 }
