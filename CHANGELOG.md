@@ -1,3 +1,15 @@
+# v0.1.2 (Wed Feb 23 2022)
+
+#### 🐛 Bug Fix
+
+- Improve button [#3](https://github.com/Tony-Starkus/learnstorybook-design-system/pull/3) ([@Tony-Starkus](https://github.com/Tony-Starkus))
+
+#### Authors: 1
+
+- Starkus ([@Tony-Starkus](https://github.com/Tony-Starkus))
+
+---
+
 # v0.1.1 (Tue Feb 22 2022)
 
 #### 🐛 Bug Fix
