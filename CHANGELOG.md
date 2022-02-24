@@ -1,3 +1,15 @@
+# v0.1.3 (Thu Feb 24 2022)
+
+#### 🐛 Bug Fix
+
+- Added AvatarList and stories [#4](https://github.com/Tony-Starkus/learnstorybook-design-system/pull/4) ([@Tony-Starkus](https://github.com/Tony-Starkus))
+
+#### Authors: 1
+
+- Starkus ([@Tony-Starkus](https://github.com/Tony-Starkus))
+
+---
+
 # v0.1.2 (Wed Feb 23 2022)
 
 #### 🐛 Bug Fix
